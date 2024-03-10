@@ -1,0 +1,182 @@
+*{padding: 0;
+    margin: 0; 
+    box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Sixtyfour&family=Yeseva+One&display=swap');
+/*font-family: 'Honk', system-ui;
+font-family: 'Sixtyfour', sans-serif;
+font-family: 'Yeseva One', serif;*/
+@font-face {font-family: 'Gladiola'; src:url(/fonts/Gladiola.ttf)}
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Sixtyfour&family=Yeseva+One&display=swap');
+/*.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/*.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }*/
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Honk&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Sixtyfour&family=Yeseva+One&display=swap');
+/*.arya-bold {
+  font-family: "Arya", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Pattaya&family=Sixtyfour&family=Yeseva+One&display=swap');
+/*.pattaya-regular {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;*/
+
+
+
+h2, h1, h3 {font-family: 'Gladiola'; font-size: xx-large; font-style: bold;}
+
+p, label, a { font-family: "Arya", sans-serif;
+    font-weight: 700;
+    font-style: normal;}
+
+body {background-color: #f9adb7 ;}
+
+/*BARRA DE NAVEGACION*/
+nav
+{display: flex;
+    background-color: #f9adb7 !important; 
+    transition: 0,7s!important;
+    padding: 30px; 
+    font-size: large;
+    font-family: "Pattaya", sans-serif !important;
+    font-weight: 400;
+    font-style: normal !important; font-weight: 400 !important; font-style: normal !important;}
+    nav a:hover {size: 90px; transform: scale(0.8);transition: 1.5s !important}
+/*FIN BARRA DE NAVEGACION*/
+
+/*HEADER*/
+header {display:flex; width: 100%;background-color: #f9adb7; padding-left: 40px;}
+.topNav {
+    display: flex;
+    overflow: auto;
+    background-color: #f9adb7;
+    padding: 10px; 
+    width: 100%;
+    height: 50px;  
+    font-size: large; 
+    text-shadow: 0px  1px 1px black,
+    0px  0px 1px black;}
+.item1 {
+    color: green; width: fit-content;
+}
+.item2 {
+    width: fit-content; font-size: large;}
+.item2 i {
+    color: rgb(165, 135, 35); margin-right: 10px;
+}
+.item2 p {
+    color: black; font-weight: 400;
+}
+
+
+/*FIN DE HEADER*/
+
+/*MAIN CON IMAGEN Y DESCRIPCION*/
+div a img {height: 60px;}
+.imagenPrincipal {width: 100%;}
+.textoYDescripción {display: flex;background-color: #9979c1; padding: 30px;}
+.imagenDescripción {width: 50%; display: flex; justify-content: center; align-items: center; }
+.imagenDescripción img {width: 50%; height: 35vw; border-radius: 50%;border-color: #f9adb7 10;}
+.textoDescripción {width: 50%; text-align: center; align-self: center; font-size: large;}
+
+/*Finaliza MAIN CON IMAGEN Y DESCRIPCION*/
+
+/*SERVICIOS*/
+.card {background-color:#f9cbc3 ; }
+.card-title {
+    background-color: rgba(192, 192, 192, 0.555)  !important; border: 2px solid; font-family: 'Gladiola'; font-size: xx-large
+}
+.card-text {
+    background-color:  rgba(182, 182, 182, 0.555)!important; border: 2px solid;
+}
+/*Finaliza SERVICIOS*/
+
+/*Consulta Inicio*/
+.consultaInicio{
+    display: flex; height: fit-content; padding-top: 40px; padding-bottom: 30px;
+}
+.consultaTextoInicio { 
+    display: block;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-align: center;
+    align-content: center;
+    height: fit-content;
+}
+.consultaInicioConsulta  {
+    display: block;
+    border: 5px;;
+    height: fit-content;
+    align-content: center;
+}
+label, input, textarea, form {display: block;padding: 2px;}
+/*FINALIZA Consulta Inicio*/
+
+
+/*Contacto Inicio*/
+footer {display: flex; padding-top: 40px;background-color: #9979c1 !important;}
+
+.contactosInicio {width: fit-content; align-content: center; padding-left: 40px !important;}
+
+footer div dl {list-style-type: none; align-items: center !important; margin-left: 50px;}
+footer div dl li {padding: 20px;}
+footer div dl p {font-size: medium !important;}
+footer div dl li i {font-size: 50px !important}
+
+.wsp {color: green ;}
+.wsp:hover {size: 80px; transform: rotate(10deg) scale(0.9);transition: 1.5s;}
+.twitter {color: blue ;}
+.twitter:hover {size: 80px; transform:rotate(10deg) scale(0.9);transition: 1.5s;}
+.insta {color: purple ;}
+.insta:hover {size: 80px; transform:rotate(10deg) scale(0.9);transition: 1.5s;}
+.correo {color: yellow ;}
+.correo:hover {size: 80px; transform:rotate(10deg) scale(0.9);transition: 1.5s;}
+.location {color: red;}
+.location:hover {size: 80px; transform:rotate(10deg) scale(0.9);transition: 1.5s;}
+
+
+/*.contactoDescripción {width: 50%; padding: 0 ; align-items: center;display: block; margin-right: 40px; }*/
+
+
+
+/*FINALIZA Ccntacto Inicio*/
+
+
+/*MEDIA QUERIS*/
+@media only screen and (min-width:320px) and (max-width: 450px)  {
+    /*Header*/
+    .item2 {font-size: small;}
+    .item1 {font-size: small; width: min-content;}
+    /*Main*/
+    .textoYDescripción {display: block;}
+    .textoDescripción {width: 100%;}
+    .imagenDescripción {display: flex;justify-content: center; margin-left: 80px;}
+    .imagenDescripción img {width: 150px; height: 300px;}
+    /*Servicios*/
+    .card {font-size: small;display: block;}
+    .card img {height: 500px;}
+    /*Consulta*/
+    .consultaInicio {display: block; padding-right: 30px;}
+    .consultaTextoInicio {width: 100%;}
+}
+
+@media only screen and (min-width:450px) and (max-width: 1600px) {
+    /*Consulta*/
+    .consultaTextoInicio {padding: 10em 0; }
+    /*Contacto*/
+    
+}
+/*FIN DE MEDIA QUERIS*/
